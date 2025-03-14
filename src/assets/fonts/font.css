@@ -1,0 +1,7 @@
+/* In a CSS file (e.g., src/styles/fonts.css) */
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@font-face {
+    font-family: 'Netron';
+    src: url('./Netron.ttf') format('truetype');
+    
+}

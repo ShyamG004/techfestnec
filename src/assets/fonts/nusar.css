@@ -1,0 +1,6 @@
+/* In a CSS file (e.g., src/styles/fonts.css) */
+@font-face {
+    font-family: 'NUSAR';
+    src: url('./NUSAR.ttf') format('truetype');
+    
+}

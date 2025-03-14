@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
+
+@keyframes scrollText {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-scroll {
+  display: inline-block;
+  animation: scrollText 10s linear infinite;
+}
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+}
+
+@keyframes move-in {  
+  from { transform:translate(0,-10px); opacity: 0; } 
+  to { transform:translate(0,0); opacity: 1; } 
+}
+
+.move-in-animation{
+  opacity:0; 
+  animation: move-in ease-in-out; 
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.3;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-animation {
+  animation: fade-in linear both;
+  animation-timeline: view();
+  animation-range: entry 10% entry 80%;
+}
+
+.fixed {
+  position: fixed;
+
+  z-index: 50;
+
+}
+.bottom-5 {
+  bottom: 1.25rem;
+}
+.left-5 {
+  left: 1.25rem;
+}
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text-white {
+  color: white;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.shadow-lg {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
