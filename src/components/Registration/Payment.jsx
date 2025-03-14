@@ -23,7 +23,7 @@ const Payment = () => {
 
     const handleDBStore = async (Data) => {
         try {
-            await axios.post("https://nec-techfest-server.vercel.app/registration/register", Data);
+            await axios.post("https://server-flame-nu.vercel.app/api/registration/register", Data);
             setModalMessage("Payment has been successfully made , For furthur details check your mail");
             setShowModal(true);
             setPaymentSuccess(true);
