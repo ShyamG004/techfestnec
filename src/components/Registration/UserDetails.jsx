@@ -52,7 +52,7 @@ const UserDetails = () => {
     }
 
     try {
-      const response = await axios.get("https://techfest-server-exqpayjiy-shyams-projects-6db934b1.vercel.app/api/user/validateuser", { params: userData });
+      const response = await axios.get("https://techfest-server.vercel.app/api/user/validateuser", { params: userData });
       if (response.data.message === "User Created Successfully") {
         window.scrollTo(0, 0);
         navigate("/registration/eventselection", { state: userData });
