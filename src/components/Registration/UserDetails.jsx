@@ -52,7 +52,7 @@ const UserDetails = () => {
     }
 
     try {
-      const response = await axios.get("https://nec.edu.in/techfest/user/validateuser", { params: userData });
+      const response = await axios.get("https://nec-techfest-server.vercel.app/user/validateuser", { params: userData });
       if (response.data.message === "User Created Successfully") {
         window.scrollTo(0, 0);
         navigate("/registration/eventselection", { state: userData });
