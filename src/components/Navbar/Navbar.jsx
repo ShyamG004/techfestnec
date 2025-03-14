@@ -35,37 +35,37 @@ export function Navbar() {
   const navItems = [
     {
       name: "Home",
-      link: "/nectechfest2k25/#/",
+      link: "/",
       icon: <IconHome className="h-4 w-4 text-white" />,
     },
     {
       name: "Technical",
-      link: "/nectechfest2k25/#/events/technical",
+      link: "/events/technical",
       icon: <IconDeviceGamepad2 className="h-4 w-4 text-white" />,
     },
     {
       name: "Non-Tech",
-      link: "/nectechfest2k25/#/events/non-tech",
+      link: "/events/non-tech",
       icon: <IconDeviceGamepad2 className="h-4 w-4 text-white" />,
     },
     {
       name: "Ideathon",
-      link: "/nectechfest2k25/#/ideathon",
+      link: "/ideathon",
       icon: <IconBulb className="h-4 w-4 text-white" />,
     },
     {
       name: "Workshops",
-      link: "/nectechfest2k25/#/events/workshops",
+      link: "/events/workshops",
       icon: <IconBook2 className="h-4 w-4 text-white" />,
     },
     {
       name: "Accommodations",
-      link: "/nectechfest2k25/#/events/accommodations",
+      link: "/events/accommodations",
       icon: <IconBed className="h-4 w-4 text-white" />,
     },
     {
       name: "Contact",
-      link: "/nectechfest2k25/#/events/contact",
+      link: "/events/contact",
       icon: <IconPhone className="h-4 w-4 text-white" />,
 
     },
@@ -134,7 +134,7 @@ export function Navbar() {
                       {departments.map((dept, index) => (
                         <a
                           key={index}
-                          href={`/nectechfest2k25/#/associations/department/${dept.toLowerCase().replace(/\s+/g, '-')}`}
+                          href={`/associations/department/${dept.toLowerCase().replace(/\s+/g, '-')}`}
                           className="block text-white text-sm p-2 hover:bg-purple-800/50 rounded-md"
                           onClick={() => setIsDrawerOpen(false)}
                         >
@@ -212,7 +212,7 @@ export function Navbar() {
                   {departments.map((department, index) => (
                     <a
                       key={index}
-                      href={`/nectechfest2k25/#/associations/department/${department.toLowerCase().replace(/\s+/g, '-')}`}
+                      href={`/associations/department/${department.toLowerCase().replace(/\s+/g, '-')}`}
                       className="block px-4 py-2 text-sm text-white hover:bg-purple-800/50 transition-colors duration-150"
                     >
                       {department}

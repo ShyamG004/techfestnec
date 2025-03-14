@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const RegisterButton = () => {
 
   const handleRegistration=()=>{
-    window.open('/nectechfest2k25/#/registration/userdetail', '_blank');
+    window.open('/registration/userdetail', '_blank');
   }
 
   return (

@@ -8,7 +8,7 @@ const DevelopersTeam = () => {
       id: 2,
       name: "Sankara Narayanan T",
       designation: "Full-Stack Developer",
-      image: "/nectechfest2k25/team/sankar.webp",
+      image: "/team/sankar.webp",
       dept:"CSE",
       linkedin: "https://www.linkedin.com/in/sankara-narayanan-81b4a4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/Sankar2408"
@@ -17,7 +17,7 @@ const DevelopersTeam = () => {
       id: 3,
       name: "Shyam Shunmugam G",
       designation: "Full-Stack Developer",
-      image: "/nectechfest2k25/team/shyam.webp",
+      image: "/team/shyam.webp",
       dept:"CSE",
       linkedin: "https://www.linkedin.com/in/shyam-shunmugam-g-936265254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/ShyamG004"
@@ -27,7 +27,7 @@ const DevelopersTeam = () => {
       name: "Palani Kumar S",
       designation: "Full-Stack Developer",
       dept:"CSE",
-      image: "/nectechfest2k25/team/palani.webp",
+      image: "/team/palani.webp",
       linkedin: "https://www.linkedin.com/in/palani-kumar-s-a256492b1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/Palanikumar106"
     },
@@ -36,7 +36,7 @@ const DevelopersTeam = () => {
       name: "Akhil R",
       designation: "Full-Stack Developer",
       dept:"IT",
-      image: "/nectechfest2k25/team/Akhil.webp",
+      image: "/team/Akhil.webp",
       linkedin: "https://www.linkedin.com/in/akhil-r777/",
       github: "https://github.com/ALANAK777"
     },
@@ -45,7 +45,7 @@ const DevelopersTeam = () => {
       name: "Hari Rajesh B",
       designation: "Full-Stack Developer",
       dept:"IT",
-      image: "/nectechfest2k25/team/Hari.webp",
+      image: "/team/Hari.webp",
       linkedin: "https://www.linkedin.com/in/harirajesh",
       github: "https://github.com/hari-rajesh"
     },
@@ -54,7 +54,7 @@ const DevelopersTeam = () => {
       name: "Alex S",
       designation: "Full-Stack Developer",
       dept:"IT",
-      image: "/nectechfest2k25/team/Alex.webp",
+      image: "/team/Alex.webp",
       linkedin: "https://www.linkedin.com/in/alex7842/",
       github: "https://github.com/alex7842"
     },
@@ -63,7 +63,7 @@ const DevelopersTeam = () => {
       name: "Narmada G",
       designation: "Frontend Developer",
       dept:"CSE",
-      image: "/nectechfest2k25/team/narmadha.webp",
+      image: "/team/narmadha.webp",
       linkedin: "https://www.linkedin.com/in/narmadha-g-3aa776256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/rockstar-narmu"
     },
@@ -72,7 +72,7 @@ const DevelopersTeam = () => {
       name: "Sankareswari M",
       designation: "Frontend Developer",
       dept:"CSE",
-      image: "/nectechfest2k25/team/sankareswari.webp",
+      image: "/team/sankareswari.webp",
       linkedin: "https://www.linkedin.com/in/sankareswari-m-929a51256/",
       github: "https://github.com/SANKARESWARI-M"
     },
@@ -81,7 +81,7 @@ const DevelopersTeam = () => {
       name: "Fiona Jores Marshal S",
       designation: "Frontend Developer",
       dept:"CSE",
-      image: "/nectechfest2k25/team/fiona.webp",
+      image: "/team/fiona.webp",
       linkedin: "https://www.linkedin.com/in/fiona-jores-b23020264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/FionaJores"
     },
@@ -90,7 +90,7 @@ const DevelopersTeam = () => {
       name: "Iyappa Kumaran S",
       designation: "AI Developer",
       dept:"AI&DS",
-      image: "/nectechfest2k25/team/kumaran.webp",
+      image: "/team/kumaran.webp",
       linkedin: "https://www.linkedin.com/in/iyappa-kumaran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/IyappaKumaranS"
     },
@@ -99,7 +99,7 @@ const DevelopersTeam = () => {
       name: "Nivetha S",
       designation: "AI Developer",
       dept:"AI&DS",
-      image: "/nectechfest2k25/team/nivetha.webp",
+      image: "/team/nivetha.webp",
       linkedin: "https://www.linkedin.com/in/nivetha-sivakumar-a08606253",
       github: "https://github.com/Nivey03"
     },
@@ -108,7 +108,7 @@ const DevelopersTeam = () => {
       name: "ROSHAN GANAPATHY VEL R",
       designation: "AI Developer",
       dept:"AI&DS",
-      image: "/nectechfest2k25/team/roshan.webp",
+      image: "/team/roshan.webp",
       linkedin: "https://www.linkedin.com/in/roshanvel?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/Roshan-337"
     }

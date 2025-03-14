@@ -77,7 +77,7 @@ const Contact = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src={`/nectechfest2k25/images/NEC.mp4`} type="video/mp4" />
+          <source src={`/images/NEC.mp4`} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

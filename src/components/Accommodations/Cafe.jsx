@@ -38,7 +38,7 @@ const Cafe = () => {
         {/* First Card */}
         <div className="group relative max-w-[540px] h-[260px] w-full sm:w-[500px] bg-gradient-to-br from-[#a7465b] to-[#6f39cd] shadow-[0_4px_20px_rgba(139,92,246,0.3)] p-5 sm:h-[330px] md:h-[320px] flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-xl hover:h-[320px] sm:hover:h-[400px] mt-12 sm:mt-10 md:mt-8">
           <div className="relative w-full top-[-25%] shadow-lg z-10 rounded-xl">
-            <img src={`/nectechfest2k25/images/cafe 1.webp`} alt="cafe 1" className="w-full h-auto rounded-xl" />
+            <img src={`/images/cafe 1.webp`} alt="cafe 1" className="w-full h-auto rounded-xl" />
           </div>
 
           <div className="relative -top-14 z-10 text-[#111] text-white text-center text-lg sm:text-xl font-semibold">
@@ -55,7 +55,7 @@ const Cafe = () => {
         {/* Second Card */}
         <div className="group relative max-w-[540px] h-[260px] w-full sm:w-[500px] bg-gradient-to-br from-[#a7465b] to-[#6f39cd] shadow-[0_4px_20px_rgba(139,92,246,0.3)] p-5 sm:h-[330px] md:h-[320px] flex flex-col shadow-lg transition-all duration-300 ease-in-out rounded-xl hover:h-[320px] sm:hover:h-[400px] mt-12 sm:mt-10 md:mt-8">
           <div className="relative w-full top-[-25%] shadow-lg z-10 rounded-xl">
-            <img src={`/nectechfest2k25/images/cafe 2.webp`} alt="cafe 2" className="w-full h-auto rounded-xl shadow-lg" />
+            <img src={`/images/cafe 2.webp`} alt="cafe 2" className="w-full h-auto rounded-xl shadow-lg" />
           </div>
 
           <div className="relative -top-14 z-10 text-[#111] text-white text-center text-lg sm:text-xl font-semibold">

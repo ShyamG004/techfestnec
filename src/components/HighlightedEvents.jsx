@@ -9,56 +9,56 @@ const events = [
   {
     id: 1,
     title: "TECHNO CHILL",
-    image: "/nectechfest2k25/events/highlight/paper.webp",
+    image: "/events/highlight/paper.webp",
     description: "Present your innovative ideas and research papers",
     link: "/associations/event/36"
   },
   {
     id: 2,
     title: "SQL TREASURE HUNT",
-    image: "/nectechfest2k25/events/highlight/coding.webp",
+    image: "/events/highlight/coding.webp",
     description: "Race against time in this intense coding competition",
     link: "/associations/event/2"
   },
   {
     id: 3,
     title: "DEVFEST",
-    image: "/nectechfest2k25/events/highlight/project.webp",
+    image: "/events/highlight/project.webp",
     description: "Showcase your groundbreaking projects",
     link: "/associations/event/92"
   },
   {
     id: 4,
     title: "CODE COOL",
-    image: "/nectechfest2k25/events/highlight/quiz.webp",
+    image: "/events/highlight/quiz.webp",
     description: "Test your technical knowledge and win exciting prizes",
     link: "/associations/event/16"
   },
   {
     id: 5,
     title: "BUILD BATTLE",
-    image: "/nectechfest2k25/events/highlight/hackathon.webp",
+    image: "/events/highlight/hackathon.webp",
     description: "24-hour coding marathon to solve real-world problems",
     link: "/associations/event/83"
   },
   {
     id: 6,
     title: "LOGIC LADDER",
-    image: "/nectechfest2k25/events/highlight/talks.webp",
+    image: "/events/highlight/talks.webp",
     description: "Engaging sessions by industry experts",
     link: "/associations/event/68"
   },
   {
     id: 7,
     title: "TECH DETECTIVE",
-    image: "/nectechfest2k25/events/highlight/talks.webp",
+    image: "/events/highlight/talks.webp",
     description: "Engaging sessions by industry experts",
     link: "/associations/event/52"
   },
   {
     id: 8,
     title: "CSS BATTLE",
-    image: "/nectechfest2k25/events/highlight/css.webp",
+    image: "/events/highlight/css.webp",
     description: "Engaging sessions by industry experts",
     link: "/associations/event/19"
   },

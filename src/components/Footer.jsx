@@ -54,13 +54,13 @@ const Footer = () => {
             </h4>
             <nav className="flex flex-col gap-4">
               {[
-                { name: "About Us", path: "/nectechfest2k25/#/", onClick: scrollToTop },
+                { name: "About Us", path: "/", onClick: scrollToTop },
                 {
                   name: "Events",
-                  path: "/nectechfest2k25/#/events/technical",
+                  path: "/events/technical",
                   onClick: scrollToTop 
                 },
-                { name: "Contact", path: "/nectechfest2k25/#/events/contact" ,onClick: scrollToTop },
+                { name: "Contact", path: "/events/contact" ,onClick: scrollToTop },
               ].map((item) => (
                 <a
                   key={item.name}
@@ -104,7 +104,7 @@ const Footer = () => {
               More Details
             </h4>
             <nav className="flex flex-col gap-4">
-              {[{name:"Developers",path:"/nectechfest2k25/#/developers",onClick: scrollToTop}].map(
+              {[{name:"Developers",path:"/developers",onClick: scrollToTop}].map(
                 (item) => (
                   <a
                     key={item.name}

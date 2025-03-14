@@ -156,7 +156,7 @@ export default function IdeathonPage() {
               className="rounded-lg overflow-hidden border border-purple-600/30 aspect-square relative "
             >
               <img
-                src="/nectechfest2k25/images/Ideathon.jpg"
+                src="/images/Ideathon.jpg"
                 alt="Ideathon 2025 Poster"
                 className="absolute inset-0 w-full h-full object-fill"
                 onError={(e) => {

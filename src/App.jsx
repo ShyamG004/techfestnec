@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Particle from './components/Particle'
 
@@ -22,7 +22,7 @@ function App() {
 
   return (
    
-      <HashRouter>
+      <BrowserRouter>
         <Layout>
        {/* <Particle />  */}
       {/* <ScrollToTop/> */}
@@ -42,7 +42,7 @@ function App() {
           <Route path="/developers" element={<DevelopersTeam/>} />
         </Routes>
         </Layout>
-      </HashRouter>
+      </BrowserRouter>
   )
 }
 

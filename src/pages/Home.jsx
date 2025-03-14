@@ -37,12 +37,12 @@ function Home() {
         {/* NEC Logo and Founder Logo Container for mobile */}
         <div className="lg:hidden flex items-center absolute top-2.5 left-2 z-[5] gap-2">
           <img
-            src={`/nectechfest2k25/logos/NEC-LOGO.webp`}
+            src={`/logos/NEC-LOGO.webp`}
             alt="NEC Tech Fest logo"
             className="w-8 sm:w-10 h-auto hover:scale-105 transition-transform duration-300"
           />
           <img
-            src={`/nectechfest2k25/logos/Founder-Logo.webp`}
+            src={`/logos/Founder-Logo.webp`}
             alt="Founder logo"
             className="w-12 sm:w-14 h-auto hover:scale-105 transition-transform duration-300"
           />
@@ -51,7 +51,7 @@ function Home() {
         {/* NEC Logo - Desktop */}
         <div className="hidden lg:block absolute top-2.5 left-4 z-[5]">
           <img
-            src={`/nectechfest2k25/logos/NEC-LOGO.webp`}
+            src={`/logos/NEC-LOGO.webp`}
             alt="NEC Tech Fest logo"
             className="w-14 h-auto hover:scale-105 transition-transform duration-300"
           />
@@ -60,7 +60,7 @@ function Home() {
         {/* Founder Logo - Desktop */}
         <div className="hidden lg:block absolute top-0.5 right-0 z-[5]">
           <img
-            src={`/nectechfest2k25/logos/Founder-Logo.webp`}
+            src={`/logos/Founder-Logo.webp`}
             alt="Founder logo"
             className="w-20 h-auto hover:scale-105 transition-transform duration-300"
           />
