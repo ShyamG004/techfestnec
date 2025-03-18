@@ -17,7 +17,7 @@ const DevelopersTeam = () => {
       id: 3,
       name: "Shyam Shunmugam G",
       designation: "Full-Stack Developer",
-      image: "/team/shyam.webp",
+      image: "/team/shyam1.jpg",
       dept:"CSE",
       linkedin: "https://www.linkedin.com/in/shyam-shunmugam-g-936265254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/ShyamG004"
