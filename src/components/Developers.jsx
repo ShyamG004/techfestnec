@@ -57,6 +57,33 @@ const DevelopersTeam = () => {
       image: "/team/Alex.webp",
       linkedin: "https://www.linkedin.com/in/alex7842/",
       github: "https://github.com/alex7842"
+    },
+    {
+      id: 9,
+      name: "Narmada G",
+      designation: "Frontend Developer",
+      dept:"CSE",
+      image: "/team/narmadha.webp",
+      linkedin: "https://www.linkedin.com/in/narmadha-g-3aa776256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "https://github.com/rockstar-narmu"
+    },
+    {
+      id: 10,
+      name: "Sankareswari M",
+      designation: "Frontend Developer",
+      dept:"CSE",
+      image: "/team/sankareswari.webp",
+      linkedin: "https://www.linkedin.com/in/sankareswari-m-929a51256/",
+      github: "https://github.com/SANKARESWARI-M"
+    },
+    {
+      id: 11,
+      name: "Fiona Jores Marshal S",
+      designation: "Frontend Developer",
+      dept:"CSE",
+      image: "/team/fiona.webp",
+      linkedin: "https://www.linkedin.com/in/fiona-jores-b23020264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "https://github.com/FionaJores"
     }
   ];
 
