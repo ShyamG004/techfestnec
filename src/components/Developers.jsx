@@ -5,15 +5,6 @@ import { Navbar } from './Navbar/Navbar';
 const DevelopersTeam = () => {
   const developers = [
     {
-      id: 2,
-      name: "Sankara Narayanan T",
-      designation: "Full-Stack Developer",
-      image: "/team/sankar.webp",
-      dept:"CSE",
-      linkedin: "https://www.linkedin.com/in/sankara-narayanan-81b4a4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      github: "https://github.com/Sankar2408"
-    },
-    {
       id: 3,
       name: "Shyam Shunmugam G",
       designation: "Full-Stack Developer",
@@ -21,6 +12,15 @@ const DevelopersTeam = () => {
       dept:"CSE",
       linkedin: "https://www.linkedin.com/in/shyam-shunmugam-g-936265254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/ShyamG004"
+    },
+    {
+      id: 2,
+      name: "Sankara Narayanan T",
+      designation: "Full-Stack Developer",
+      image: "/team/sankar.webp",
+      dept:"CSE",
+      linkedin: "https://www.linkedin.com/in/sankara-narayanan-81b4a4256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "https://github.com/Sankar2408"
     },
     {
       id: 4,
